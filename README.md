@@ -27,6 +27,14 @@ npm run dev
 
 Open the URL printed by Vite and upload the root-level `reviews.csv`. Try filtering by product, sentiment or topic and click **Suggest reply** on a complaint. Upload the same CSV again to see the cache count. On macOS/Linux use `cp` and `.venv/bin/python`.
 
+## Dashboard screenshots
+
+These screenshots use the assessment CSV and simulated Gemini responses.
+
+![ReviewLens dashboard with sentiment totals, themes and the review table](screenshots/dashboard.png)
+
+![Filtered earbud reviews and a suggested reply for R012](screenshots/filtered-reviews.png)
+
 ## Architecture
 
 React sends multipart uploads and reply requests through the Vite proxy to FastAPI. The API decodes UTF-8, strips markup from review text, normalizes whitespace, treats invalid ratings as unknown and deduplicates by normalized text hash. It sends uncached reviews to Gemini sequentially in batches of five. HTTP 429, 5xx and transient connection errors use two retries with one- and two-second delays. Each response item must pass the strict Pydantic schema. Invalid items get one additional analysis attempt. Successful items go into SQLite so repeated uploads reuse them.
@@ -60,3 +68,4 @@ Analyses count each distinct normalized review once across the file. The prompt 
 ## AI assistance
 
 OpenAI Codex helped implement the frontend, backend, tests and documentation.
+
