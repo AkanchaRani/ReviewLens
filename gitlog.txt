@@ -1,0 +1,71 @@
+commit 601c6814aeb82796f0620e702dd21e35cbe58ad8
+Author: Akancha Rani <akancharani2@gmail.com>
+Date:   2026-11-19 14:58:54 +0530
+
+    Document the verified dashboard and reply flow with screenshots
+
+commit 8f67f5b2a3c8702af46a20182687d86c8886cdbe
+Author: Akancha Rani <akancharani2@gmail.com>
+Date:   2026-11-19 14:55:51 +0530
+
+    Remove PDF line padding from the assessment CSV
+
+commit 1909ce5abddb896890c685da071958bc459e80ca
+Author: Akancha Rani <akancharani2@gmail.com>
+Date:   2026-11-19 14:53:30 +0530
+
+    Document local setup, architecture and prompt design
+
+commit 76951f3ff9a6b2c387c32db0cccf440f3f22aceb
+Author: Akancha Rani <akancharani2@gmail.com>
+Date:   2026-11-19 14:53:30 +0530
+
+    Test messy CSV, strict validation, retries and cache reuse
+
+commit a4e095ad28666312172d37e140a66abc40792ab6
+Author: Akancha Rani <akancharani2@gmail.com>
+Date:   2026-11-19 14:53:29 +0530
+
+    Build the review dashboard, filters and reply controls
+
+commit 19b37718fbd70151841fa0eb5191ed560dbeef01
+Author: Akancha Rani <akancharani2@gmail.com>
+Date:   2026-11-19 14:53:29 +0530
+
+    Expose upload and reply endpoints through the local API
+
+commit b90a67c11bfbf3860274da670890f73442312d00
+Author: Akancha Rani <akancharani2@gmail.com>
+Date:   2026-11-19 14:53:29 +0530
+
+    Batch review analysis and aggregate dashboard insights
+
+commit 8a1c481dfb6d7f83f88fcda35fbe287a4122e293
+Author: Akancha Rani <akancharani2@gmail.com>
+Date:   2026-11-19 14:53:29 +0530
+
+    Persist validated review analysis in SQLite
+
+commit b78e43e0c8cb558fe086da416af53e9233fa7089
+Author: Akancha Rani <akancharani2@gmail.com>
+Date:   2026-11-19 14:53:28 +0530
+
+    Integrate Gemini prompts and transient error retries
+
+commit 551f528d61c6ec6d91f969f0d46526ff1be6d14a
+Author: Akancha Rani <akancharani2@gmail.com>
+Date:   2026-11-19 14:53:28 +0530
+
+    Define strict review analysis and reply schemas
+
+commit 4fe072dbadaf9821cedaf7acf6cf5d8217c5d302
+Author: Akancha Rani <akancharani2@gmail.com>
+Date:   2026-11-19 14:53:27 +0530
+
+    Add assessment reviews and normalize CSV input
+
+commit 626a0788adca027c8a96b25303f3fae5d66e69ed
+Author: Akancha Rani <akancharani2@gmail.com>
+Date:   2026-11-19 14:53:27 +0530
+
+    Initialize project and preserve Vite scaffold
